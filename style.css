@@ -1,0 +1,29 @@
+.navbar {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+    font-weight: bolder;
+    background-color: blue;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar li {
+    display: inline;
+    padding: 5 5 5 5;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar a:hover {
+    color: grey;
+}
+
+#chessBoard {
+    position: relative;
+}
